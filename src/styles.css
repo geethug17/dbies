@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.logo {
+    background-image: url("assets/images/logo.png");
+    height: 66px;
+    background-color: #cccccc;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}

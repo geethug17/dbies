@@ -1,0 +1,28 @@
+<div class="login-wrapper">
+    <div class="login-block">
+        <div class="card login-card">
+            <div class="card-body login-body">
+                <div class="login-header">
+                    <div class="logo"></div>
+                </div>
+                <div class="input-container">
+                    <div class="row py-2">
+                        <div class="col-12">
+                            <app-input-field [inputConfig]="usernameConfig" #usernameComponent></app-input-field>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-12">
+                            <app-input-field [inputConfig]="passwordConfig" #passwordComponent></app-input-field>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-12">
+                            <app-button [buttonConfig]="submitConfig" (buttonClick)="submitInfo()"></app-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

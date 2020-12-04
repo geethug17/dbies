@@ -1,0 +1,32 @@
+.site-header {
+    background: #1551CC;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-tab {
+    padding: 16px;
+    cursor: pointer;
+}
+
+.logo-container {
+    width: 20%;
+    height: 60px;
+    padding: 16px 0;
+}
+
+.header-logo {
+    background-image: url("/assets/images/key_feature_bg.png");
+    height: inherit;
+    background-color: inherit;
+    background-size: 69px 22px;
+    width: 100%;
+    background-repeat: no-repeat;
+}

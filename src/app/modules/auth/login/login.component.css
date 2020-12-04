@@ -1,0 +1,54 @@
+.login-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    /* background: blue; */
+}
+.login-card {
+    position: fixed;
+    height: 420px;
+    top: calc(50% - 210px);
+    width: 350px;
+    left: calc(50% - 175px);
+    background-color: #cccccc;
+}
+.login-body {
+    padding: 35px;
+}
+.med-login-header {
+    padding: 20px 0;
+    padding-bottom: 45px;
+}
+
+.med-form-field {
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+.form-control {
+    outline: none;
+    border: none;
+    border-radius: 0;
+    height: 25px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px;
+    margin: 7px;
+    padding-right: 10px;
+}
+.med-icon {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 0 15px;
+    color: black;
+}
+
+.input-container {
+    margin-top: 65px;
+    display: block;
+}
